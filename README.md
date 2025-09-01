@@ -1,6 +1,6 @@
 # Fresh Bakery Shop - Complete Ordering Website
 
-A modern, full-stack bakery ordering website built with Next.js 14, featuring real-time order management, WhatsApp payment integration, and a comprehensive admin dashboard.
+A modern, full-stack bakery ordering website built with Next.js 15, featuring real-time order management, WhatsApp payment integration, and a comprehensive admin dashboard.
 
 ## 🚀 Project Overview
 
@@ -8,7 +8,7 @@ Fresh Bakery Shop is a production-ready ordering platform that allows customers 
 
 ## 🛠 Tech Stack
 
-- **Frontend**: Next.js 14 (App Router), TypeScript, TailwindCSS
+- **Frontend**: Next.js 15 (App Router), TypeScript, TailwindCSS
 - **UI Components**: ShadCN UI with custom bakery theme
 - **Backend**: Next.js API Routes, Server Actions
 - **Database**: PostgreSQL with Prisma ORM
@@ -248,8 +248,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For technical support or questions:
 - Create an issue on GitHub
-- Contact via WhatsApp: [Your WhatsApp Number]
-- Email: support@freshbakery.com
+- Contact via WhatsApp: +8801622839616
+- Email: eity.mehedipathan@gmail.com
 
 ---
 
