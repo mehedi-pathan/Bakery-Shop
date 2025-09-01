@@ -1,11 +1,12 @@
 import { NextResponse } from "next/server"
 import { prisma } from "@/lib/db"
-import { getServerSession } from "next-auth"
+import { getServerSession } from "next-auth/next"
 import { authOptions } from "@/lib/auth"
+import type { Session } from "next-auth"
 
 export async function POST(request: Request) {
   try {
-    const session = await getServerSession(authOptions)
+    const session = await getServerSession(authOptions) as Session | null
     const body = await request.json()
 
     const { items, customerName, customerPhone, note } = body
@@ -55,7 +56,7 @@ export async function POST(request: Request) {
 
 export async function GET(request: Request) {
   try {
-    const session = await getServerSession(authOptions)
+    const session = await getServerSession(authOptions) as Session | null
     const { searchParams } = new URL(request.url)
     const userId = searchParams.get("userId")
 
