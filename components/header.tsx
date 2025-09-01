@@ -155,7 +155,7 @@ export function Header() {
                         My Orders
                       </Link>
                     </DropdownMenuItem>
-                    {(session.user as any).role === "ADMIN" && (
+                    {session.user.role === "ADMIN" && (
                       <DropdownMenuItem asChild>
                         <Link href="/admin" className="flex items-center">
                           <Settings className="h-4 w-4 mr-2" />
@@ -274,7 +274,7 @@ export function Header() {
                           My Orders
                         </Link>
                       </Button>
-                      {(session.user as any).role === "ADMIN" && (
+                      {session.user.role === "ADMIN" && (
                         <Button variant="ghost" size="sm" asChild className="w-full justify-start">
                           <Link href="/admin">
                             <Settings className="h-4 w-4 mr-2" />
