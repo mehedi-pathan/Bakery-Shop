@@ -23,18 +23,15 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   const [quantity, setQuantity] = useState(1)
-  const { dispatch } = useCart()
+  const { addToCart } = useCart() // Change this line to use addToCart instead of dispatch
 
   const handleAddToCart = () => {
     for (let i = 0; i < quantity; i++) {
-      dispatch({
-        type: "ADD_ITEM",
-        payload: {
-          id: product.id,
-          name: product.name,
-          price: Number(product.price),
-          image: product.image || undefined,
-        },
+      addToCart({
+        id: product.id,
+        name: product.name,
+        price: Number(product.price),
+        image: product.image || undefined,
       })
     }
     setQuantity(1)
