@@ -152,7 +152,7 @@ export default async function OrderDetailPage({ params }: { params: Promise<{ id
 
                 <div className="flex justify-between items-center pt-4 border-t font-semibold text-lg">
                   <span>Total:</span>
-                  <span className="text-primary">${Number(order.subtotal).toFixed(2)}</span>
+                  <span className="text-primary">BDT{Number(order.subtotal).toFixed(2)}</span>
                 </div>
               </div>
             </CardContent>

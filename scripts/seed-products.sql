@@ -1,7 +1,7 @@
 -- Initial product seeding for bakery shop
 INSERT INTO products (id, name, description, price, category, image, "isActive", "createdAt", "updatedAt") VALUES
 -- Bakery Items
-('bakery_1', 'Fresh Croissant', 'Buttery, flaky croissant baked fresh daily', 3.50, 'Bakery', '/placeholder.svg?height=200&width=200', true, NOW(), NOW()),
+('bakery_1', 'Fresh Croissantttt', 'Buttery, flaky croissant baked fresh daily', 3.50, 'Bakery', '/placeholder.svg?height=200&width=200', true, NOW(), NOW()),
 ('bakery_2', 'Sourdough Bread', 'Artisan sourdough with perfect crust', 8.00, 'Bakery', '/placeholder.svg?height=200&width=200', true, NOW(), NOW()),
 ('bakery_3', 'Chocolate Muffin', 'Rich chocolate muffin with chocolate chips', 4.25, 'Bakery', '/placeholder.svg?height=200&width=200', true, NOW(), NOW()),
 

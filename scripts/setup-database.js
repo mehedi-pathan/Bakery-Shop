@@ -27,7 +27,7 @@ async function setupDatabase() {
     // Seed products
     const products = [
       {
-        name: 'Fresh Croissant',
+        name: 'Fresh Croissantsssss',
         description: 'Buttery, flaky croissant baked fresh daily',
         price: 3.50,
         category: 'Bakery',

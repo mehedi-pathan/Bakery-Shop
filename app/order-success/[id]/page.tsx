@@ -102,7 +102,7 @@ export default async function OrderSuccessPage({ params }: { params: Promise<{ i
                       <span>
                         {item.product.name} x{item.quantity}
                       </span>
-                      <span>${(Number(item.price) * item.quantity).toFixed(2)}</span>
+                      <span>BDT{(Number(item.price) * item.quantity).toFixed(2)}</span>
                     </div>
                   ))}
                 </div>
