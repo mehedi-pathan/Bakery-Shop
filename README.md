@@ -4,6 +4,8 @@ A modern, full-stack bakery ordering website built with Next.js 15, featuring re
 
 ## 🚀 Project Overview
 
+![a ive Bakry for you](freash-bakery-landing.png)
+
 Fresh Bakery Shop is a production-ready ordering platform that allows customers to browse products, place orders, and make advance payments via WhatsApp. The system includes both customer-facing features and a powerful admin dashboard for order and product management.
 
 ## 🛠 Tech Stack
